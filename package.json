@@ -1,0 +1,38 @@
+{
+  "name": "@devanshj/class-with-hooks",
+  "version": "0.0.1",
+  "main": "dist/devanshj-class-with-hooks.cjs.js",
+  "module": "dist/devanshj-class-with-hooks.esm.js",
+  "description": "Use hooks in your class components",
+  "keywords": [
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devanshj/class-with-hooks.git"
+  },
+  "readme": "https://github.com/devanshj/class-with-hooks/tree/main/README.md",
+  "author": {
+    "name": "Devansh Jethmalani",
+    "email": "jethmalani.devansh@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.18.6",
+    "@preconstruct/cli": "^2.2.2",
+    "@types/jest": "^29.1.0",
+    "@types/react": "^18.0.21",
+    "@types/react-test-renderer": "^18.0.0",
+    "jest": "^29.1.1",
+    "react-test-renderer": "^18.2.0",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "build": "preconstruct build",
+    "test": "jest"
+  }
+}
