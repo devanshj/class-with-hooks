@@ -31,7 +31,7 @@ const useCounter = t => {
 }
 ```
 
-And it'll render as it were the following `Foo` component...
+And it'll render as if it were the following `Foo` component...
 
 ```jsx
 import Re from "react"
