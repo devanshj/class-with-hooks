@@ -9,6 +9,7 @@ const withHooks: WithHooks =
   C => withDisplayName(C.displayName ?? C.name, props => {
 
   let instance = useConstant(() => new C(props))
+  ;(instance as { props: typeof instance.props }).props = props
   
   let [state, setState] = Re.useState(() => instance.state)
   type S = typeof state
@@ -79,3 +80,7 @@ const withDisplayName: WithDisplayName = (n, _f) => {
   f.displayName = n
   return f
 }
+
+type Mutable<T> =
+  { -readonly [K in keyof T]: T[K]
+  }
