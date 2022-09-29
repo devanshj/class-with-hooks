@@ -1,6 +1,6 @@
 {
   "name": "@devanshj/class-with-hooks",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/devanshj-class-with-hooks.cjs.js",
   "module": "dist/devanshj-class-with-hooks.esm.js",
   "description": "Use hooks in your class components",

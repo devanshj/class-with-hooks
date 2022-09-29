@@ -80,7 +80,3 @@ const withDisplayName: WithDisplayName = (n, _f) => {
   f.displayName = n
   return f
 }
-
-type Mutable<T> =
-  { -readonly [K in keyof T]: T[K]
-  }
