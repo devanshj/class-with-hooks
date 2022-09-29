@@ -35,7 +35,6 @@ And it'll render as it were the following `Foo` component...
 
 ```jsx
 import Re from "react"
-import withHooks from "@devanshj/class-with-hooks"
 
 const Foo = props => {
   let a = useCounter(1000)
