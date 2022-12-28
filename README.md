@@ -67,7 +67,7 @@ See [the test](https://github.com/devanshj/class-with-hooks/tree/main/test/index
 
 ## Future explorations
 
-- Support more class features. Current only `props`, `state`, `setState`, `forceUpdate`, `componentDidMount`, `componentDidUnmount`, `componentDidUpdate` and `shouldComponentUpdate` are supported.
+- Support more class features. Currently only `props`, `state`, `setState`, `forceUpdate`, `componentDidMount`, `componentDidUnmount`, `componentDidUpdate` and `shouldComponentUpdate` are supported.
 
 - An option to render hooks as descendants of the class. Currently hooks render as ancestors of the class. Former is rendering hooks as a higher-order component and latter is rendering hook as a render-prop.
 
